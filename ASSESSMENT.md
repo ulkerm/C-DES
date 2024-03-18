@@ -2,7 +2,7 @@
 
 Nachname und Vorname: Mikayilova Ulkar
 
-Aufwand (in Stunden): 0.0
+Aufwand (in Stunden): 11.0
 
 | Beispiel  | Gewichtung  | Lösungsidee (15%) | Implement. (65%) | Testen (20%) |
 | --------- | :---------: |:-----------------:|:----------------:|:------------:|
