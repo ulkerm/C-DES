@@ -13,7 +13,6 @@ class Buffer {
 public:
     Buffer(int maxSize) : maxSize(maxSize) {};
 
-
     void addItem() {
         if (buffer.size() < maxSize) {
             count++;
