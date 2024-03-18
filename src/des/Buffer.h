@@ -12,7 +12,7 @@ class Buffer {
 
 public:
     Buffer(int maxSize) : maxSize(maxSize) {};
-    //~Buffer();
+
 
     void addItem() {
         if (buffer.size() < maxSize) {
@@ -27,7 +27,6 @@ public:
         if (!buffer.empty()) {
             buffer.pop_back();
             count--;
-            // cout << "count  " << count << endl;
         } else {
             std::cout << "Buffer is empty. Cannot remove data." << std::endl;
         }
