@@ -25,7 +25,13 @@ set(CMAKE_CXX_EXTENSIONS OFF)       # disable compiler specific extensions
 # executable
 add_executable(${EXECUTABLE_NAME} 
  des/main.cpp
- # add your files
+        des/Event.h
+        des/Simulator.h
+        des/Simulator.cpp
+        des/Buffer.h
+        des/ConsumeEvent.h
+        des/ProduceEvent.h
+        # add your files
 )
 
 # compilersettings
